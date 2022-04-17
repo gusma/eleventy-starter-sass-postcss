@@ -1,0 +1,21 @@
+{
+  "name": "gusma-11ty-starter",
+  "version": "1.0.0",
+  "description": "Bare bones",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusma/eleventy-starter.git"
+  },
+  "author": "gusma",
+  "bugs": {
+    "url": "https://github.com/gusma/eleventy-starter/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
