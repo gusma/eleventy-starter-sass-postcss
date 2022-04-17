@@ -7,16 +7,19 @@
   <title>{{ title }}{% if page.url != '/' %} | {{ meta.siteName }}{% endif %}</title>
   <link rel="stylesheet" href="css/main.css?v={% version %}">
 </head>
-<body>
+<body class="d-flex h-100 text-center text-black bg-white">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
   {% include "nav.njk" %}
-
+ <main class="px-3">
   {{ content | safe }}
+  </main>
 
-  <footer>
+  <footer class="mt-auto text-white-50">
     <div>
       <p>&copy; {% year %} {{ meta.siteName }}{% if meta.authorName %} • {{ meta.authorName }}{% endif %}</p>
     </div>
   </footer>
-
+</div>
 </body>
 </html>

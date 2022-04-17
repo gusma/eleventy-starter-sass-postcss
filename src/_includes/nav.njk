@@ -1,6 +1,8 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
-
-<nav>
+ <header class="mb-auto">
+    <div>
+       <h3 class="float-md-start mb-0">Cover</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
   <ul role="list">
     <li>
       <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
@@ -17,3 +19,5 @@
     {%- endfor %}
   </ul>
 </nav>
+</div>
+</header>
