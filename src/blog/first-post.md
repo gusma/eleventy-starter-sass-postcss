@@ -1,5 +1,5 @@
 ---
-layout: base.njk 
+layout: base.njk
 tags: ['blog']
 title: Hello World
 date: 2020-01-01

@@ -1,3 +1,3 @@
 module.exports = {
-	"includePaths": ["node_modules"]
-} 
+    includePaths: ['node_modules'],
+}

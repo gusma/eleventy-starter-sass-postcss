@@ -1,2 +1,2 @@
 // Bootstrap JS
-var bootstrap = require('bootstrap'); 
+var bootstrap = require('bootstrap')
